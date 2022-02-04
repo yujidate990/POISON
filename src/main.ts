@@ -1,6 +1,5 @@
 // import QRCode from "qrcode";
 import "./reset.css";
-import "./font.css"
 import "./style.css";
 
 interface Data {
@@ -16,28 +15,25 @@ interface Data {
 
 const db: Data[] = [
   {
-    title: "MNP予約番号関連",
+    title: "MNP予約番号",
     next: [
       {
         title: "キャリア",
         next: [
           {
-            id: "docomo",
+            id: "softbank",
             title: "Docomo",
-            url: "https://www.nttdocomo.co.jp/mydocomo/",
-            methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-            method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                        受付時間：9:00～21:30 `,
-            description: `契約端末ダイアル後「4→2→2→暗証番号」
-                        主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "softbank",
+            title: "SoftBank",
+            url: "https://my.softbank.jp/",
           },
           {
             id: "softbank",
             title: "au",
-            url: "https://www.nttdocomo.co.jp/mydocomo/",
-            methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-            method: "ここにauのやり方を記載",
-            description: "ここにauの補足説明とかを記載",
+            url: "https://my.softbank.jp/",
           },
         ],
       },
@@ -45,78 +41,102 @@ const db: Data[] = [
         title: "オンラインプラン",
         next: [
           {
-            title: "Docomo",
-            url: "https://www.nttdocomo.co.jp/mydocomo/",
-            methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-            method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                        受付時間：9:00～21:30 `,
-            description: `契約端末ダイアル後「4→2→2→暗証番号」
-                        主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
+            id: "softbank",
+            title: "ahamo",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "softbank",
+            title: "povo 1.0",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "softbank",
+            title: "povo 2.0",
+            url: "https://my.softbank.jp/",
           },
         ],
       },
       {
-        title: "格安SIM",
+        title: "softbank",
         next: [
           {
-            title: "Docomo",
-            url: "https://www.nttdocomo.co.jp/mydocomo/",
-            methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-            method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                        受付時間：9:00～21:30 `,
-            description: `契約端末ダイアル後「4→2→2→暗証番号」
-                        主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
+            id: "softbank",
+            title: "mineo",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "softbank",
+            title: "BIGLOBE mobile",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "softbank",
+            title: "LINE MOBILE",
+            url: "https://my.softbank.jp/",
           },
         ],
       },
     ],
   },
+
+
+
   {
     title: "インターネット解約関連",
     next: [
       {
-        title: "フレッツ光 / コラボ光",
-        url: "https://www.nttdocomo.co.jp/mydocomo/",
-        methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-        method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                  受付時間：9:00～21:30 `,
-        description: `契約端末ダイアル後「4→2→2→暗証番号」
-                  主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
-      },
-      {
-        title: "Ｊ：ＣＯＭ",
-        url: "https://www.nttdocomo.co.jp/mydocomo/",
-        methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-        method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                  受付時間：9:00～21:30 `,
-        description: `契約端末ダイアル後「4→2→2→暗証番号」
-                  主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
-      },
-      {
-        title: "au ひかり",
-        url: "https://www.nttdocomo.co.jp/mydocomo/",
-        methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-        method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                  受付時間：9:00～21:30 `,
-        description: `契約端末ダイアル後「4→2→2→暗証番号」
-                  主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
-      },
-    ],
-  },
-  {
-    title: "インターネットエリア検索",
-    next: [
-      {
-        title: "キャリア",
+        title: "フレッツ光・コラボ光",
         next: [
           {
-            title: "Docomo",
-            url: "https://www.nttdocomo.co.jp/mydocomo/",
-            methodTitle: "MNP予約番号の手順（2021/12/25更新）",
-            method: ` スマホかパソコンから「マイドコモ（My docomo）」にアクセス
-                    受付時間：9:00～21:30 `,
-            description: `契約端末ダイアル後「4→2→2→暗証番号」
-                    主回線と子回線を反転させるようにオペレーターに依頼するべし。`,
+            id: "fleteast",
+            title: "ＮＴＴ東日本",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "fleteast",
+            title: "ＮＴＴ西日本",
+            url: "https://my.softbank.jp/",
+          },
+        ],
+      },
+      {
+        title: "非フレッツ光",
+        next: [
+          {
+            id: "fleteast",
+            title: "NURO光",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "fleteast",
+            title: "J:COM",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "fleteast",
+            title: "au ひかり(@nifty)",
+            url: "https://my.softbank.jp/",
+          },
+        ],
+      },
+      {
+        title: "ホームルータ―・ポケットWi-Fi",
+        next: [
+          {
+            id: "fleteast",
+            title: "SoftBank Air（解約）",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "fleteast",
+            title: "UQ Wimax　（UQ販路）",
+            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "fleteast",
+            title: "UQ Wimax　（BIC販路）→BIC WiMAX SERVICE",
+            url: "https://my.softbank.jp/",
           },
         ],
       },
@@ -130,6 +150,7 @@ const ramen = (data: Data, history: Data[]) => {
   main.innerHTML = "";
 
   const saisho = document.createElement("button");
+  saisho.classList.add("return-btn")
   saisho.innerHTML = "最初に戻る";
   main.appendChild(saisho);
 
@@ -138,8 +159,9 @@ const ramen = (data: Data, history: Data[]) => {
   });
 
   const back = document.createElement("button")!;
+  back.classList.add("return-btn")
   back.id = "back";
-  back.innerHTML = "戻る"
+  back.innerHTML = "前に戻る"
   main.appendChild(back);
 
   const ul = document.createElement("ul");
@@ -177,36 +199,21 @@ const ramen = (data: Data, history: Data[]) => {
     } else {
       window.location.href = "/";
     }
-    // ul.innerHTML = "";
-  
-    // if (data.url) {
-    //   const url = document.createElement("a");
-    //   url.innerHTML = data.url;
-    //   info.appendChild(url);
-
-    //   const qrcode = document.createElement("canvas");
-    //   info.appendChild(qrcode);
-    //   QRCode.toCanvas(qrcode, data.url);
-    // }
-
-    // if (data.description) {
-    //   const description = document.createElement("p");
-    //   description.innerHTML = data.description;
-    //   info.appendChild(description);
-    // }
-
-    // if (data.methodTitle) {
-    //   const methodTitle = document.createElement("h3");
-    //   methodTitle.innerHTML = data.methodTitle;
-    //   info.appendChild(methodTitle);
-    // }
-
-    // if (data.method) {
-    //   const method = document.createElement("p");
-    //   method.innerHTML = data.method;
-    //   info.appendChild(method);
-    // }
   }
 };
 
 ramen({title: "root", next: db}, []);
+
+// ブラウザで戻るを行なったときに初期表示されないため。 see: https://qiita.com/shibe23/items/79f950061457ff1a7687
+window.onbeforeunload = function() {
+  // IE用。ここは空でOKです
+};
+window.onunload = function() {
+  // IE以外用。ここは空でOKです
+};
+window.addEventListener("pageshow", function(event){
+  if (event.persisted) {
+    // ここにキャッシュ有効時の処理を書く
+    ramen({title: "root", next: db}, []);
+  }
+});
