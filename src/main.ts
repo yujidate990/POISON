@@ -22,18 +22,31 @@ const db: Data[] = [
         next: [
           {
             id: "softbank",
-            title: "Docomo",
-            url: "https://my.softbank.jp/",
-          },
-          {
-            id: "softbank",
             title: "SoftBank",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "softbank",
+            id: "comingsoon",
+            title: "Docomo",
+          },
+          {
+            id: "comingsoon",
             title: "au",
-            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "comingsoon",
+            title: "Y!mobile",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ mobile",
+          },
+          {
+            id: "comingsoon",
+            title: "楽天モバイル<br/>(旧プランMVNO時代)"
+          },
+          {
+            id: "comingsoon",
+            title: "楽天モバイル<br/>(新プラン Rakuten UN-LIMIT)",
           },
         ],
       },
@@ -41,39 +54,93 @@ const db: Data[] = [
         title: "オンラインプラン",
         next: [
           {
-            id: "softbank",
+            id: "comingsoon",
             title: "ahamo",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "softbank",
+            id: "comingsoon",
             title: "povo 1.0",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "softbank",
+            id: "comingsoon",
             title: "povo 2.0",
-            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "comingsoon",
+            title: "LINEMO",
           },
         ],
       },
       {
-        title: "softbank",
+        title: "格安SIM",
         next: [
           {
-            id: "softbank",
+            id: "comingsoon",
             title: "mineo",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "softbank",
+            id: "comingsoon",
             title: "BIGLOBE mobile",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "softbank",
+            id: "comingsoon",
             title: "LINE MOBILE",
-            url: "https://my.softbank.jp/",
+          },
+          {
+            id: "comingsoon",
+            title: "楽天モバイル<br/>(旧プランMVNO時代)"
+          },
+          {
+            id: "comingsoon",
+            title: "楽天モバイル<br/>(新プラン Rakuten UN-LIMIT)",
+          },
+          {
+            id: "comingsoon",
+            title: "OCN モバイル ONE",
+          },
+          {
+            id: "comingsoon",
+            title: "DMM モバイル",
+          },
+          {
+            id: "comingsoon",
+            title: "NURO モバイル",
+          },
+          {
+            id: "comingsoon",
+            title: "U-mobile<br/>(ユーモバイル)",
+          },
+          {
+            id: "comingsoon",
+            title: "NifMo<br/>(ニフモ)",
+          },
+          {
+            id: "comingsoon",
+            title: "LIBMO<br/>(リブモ)",
+          },
+          {
+            id: "comingsoon",
+            title: "excite モバイル<br/>(エキサイトモバイル)",
+          },
+          {
+            id: "comingsoon",
+            title: "IIJ mio<br/>(アイアイジェイミオ)",
+          },
+          {
+            id: "comingsoon",
+            title: "AEON MOBILE<br/>(イオンモバイル)",
+          },
+          {
+            id: "comingsoon",
+            title: "Y.U.mobile",
+          },
+          {
+            id: "comingsoon",
+            title: "J:COM モバイル",
+          },
+          {
+            id: "comingsoon",
+            title: "TONE MOBILE<br/>(トーンモバイル)",
           },
         ],
       },
@@ -89,14 +156,112 @@ const db: Data[] = [
         title: "フレッツ光・コラボ光",
         next: [
           {
-            id: "fleteast",
-            title: "ＮＴＴ東日本",
-            url: "https://my.softbank.jp/",
+            id: "flets_ntt_east",
+            title: "フレッツ光（転用）<br/>【NTT東日本】",
           },
           {
-            id: "fleteast",
-            title: "ＮＴＴ西日本",
-            url: "https://my.softbank.jp/",
+            id: "comingsoon",
+            title: "フレッツ光（転用）<br/>【NTT西日本】",
+          },
+          {
+            id: "comingsoon",
+            title: "@nifty光",
+          },
+          {
+            id: "comingsoon",
+            title: "@TCOMヒカリ",
+          },
+          {
+            id: "comingsoon",
+            title: "AsahiNet光",
+          },
+          {
+            id: "comingsoon",
+            title: "DMM光",
+          },
+          {
+            id: "comingsoon",
+            title: "Drive光",
+          },
+          {
+            id: "comingsoon",
+            title: "DTI光",
+          },
+          {
+            id: "comingsoon",
+            title: "FT光",
+          },
+          {
+            id: "comingsoon",
+            title: "hi-hoひかり",
+          },
+          {
+            id: "comingsoon",
+            title: "IIJmioひかり",
+          },
+          {
+            id: "comingsoon",
+            title: "Mひかり<br/>（Marubeni光）",
+          },
+          {
+            id: "comingsoon",
+            title: "OCN光",
+          },
+          {
+            id: "comingsoon",
+            title: "o’zzio光",
+          },
+          {
+            id: "comingsoon",
+            title: "So-net光",
+          },
+          {
+            id: "comingsoon",
+            title: "TEPCOひかり",
+          },
+          {
+            id: "comingsoon",
+            title: "TG光",
+          },
+          {
+            id: "comingsoon",
+            title: "USEN光 plus",
+          },
+          {
+            id: "comingsoon",
+            title: "エキサイト光<br/>BB.excite光Fit",
+          },
+          {
+            id: "comingsoon",
+            title: "エディオン光",
+          },
+          {
+            id: "comingsoon",
+            title: "ビッグローブ光",
+          },
+          {
+            id: "comingsoon",
+            title: "ぷらら光",
+          },
+          {
+            id: "comingsoon",
+            title: "楽天ひかり",
+          },
+          {
+            id: "comingsoon",
+            title: "ドコモ光",
+          },
+          {
+            id: "comingsoon",
+            title: "SoftBank光",
+          },
+          {
+            id: "comingsoon",
+            title: "おてがる光",
+          },
+          {
+            id: "comingsoon",
+            title: "en光",
           },
         ],
       },
@@ -104,19 +269,68 @@ const db: Data[] = [
         title: "非フレッツ光",
         next: [
           {
-            id: "fleteast",
+            id: "comingsoon",
             title: "NURO光",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "fleteast",
+            id: "comingsoon",
             title: "J:COM",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "fleteast",
-            title: "au ひかり(@nifty)",
-            url: "https://my.softbank.jp/",
+            id: "comingsoon",
+            title: "au ひかり<br/>(@nifty)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(@T COM)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(ASAHIネット)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(au one net)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(BIGLOBE)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(DTI)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(So-net)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(GMOとくとくBB)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(リンククラブ)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(楽天ブロードバンド)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(SmartLINE)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり(エディオンネット/<br/>エンジョイ☆auひかり)",
+          },
+          {
+            id: "comingsoon",
+            title: "au ひかり<br/>(メガ・エッグ)",
+          },
+          {
+            id: "comingsoon",
+            title: "auひかり(電話サービス/<br/>テレビサービスのみ解約)",
           },
         ],
       },
@@ -124,23 +338,137 @@ const db: Data[] = [
         title: "ホームルータ―・ポケットWi-Fi",
         next: [
           {
-            id: "fleteast",
+            id: "comingsoon",
             title: "SoftBank Air（解約）",
-            url: "https://my.softbank.jp/",
           },
           {
-            id: "fleteast",
-            title: "UQ Wimax　（UQ販路）",
-            url: "https://my.softbank.jp/",
+            id: "comingsoon",
+            title: "UQ Wimax （UQ販路）",
           },
           {
-            id: "fleteast",
-            title: "UQ Wimax　（BIC販路）→BIC WiMAX SERVICE",
-            url: "https://my.softbank.jp/",
+            id: "comingsoon",
+            title: "UQ Wimax （BIC販路）<br/>→BIC WiMAX SERVICE",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax(YOD販路)→WIREL<br/>ESSGATE WiMAX SERVICE",
+          },
+          {
+            id: "comingsoon",
+            title: "カシモWiMAX",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（DTI）",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（Broad WiMAX）",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（GMOとくとくBB）",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（VisionWiMAX）",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（BIGLOBE）",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（So-net ）",
+          },
+          {
+            id: "comingsoon",
+            title: "UQ Wimax（@nifty）",
           },
         ],
       },
     ],
+  },
+
+
+
+  {
+    title: "インターネットエリア検索",
+    next: [
+      {
+        id: "flets_search",
+        title: "フレッツ光マンション検索",
+      },
+      {
+        id: "comingsoon",
+        title: "SoftBank Air 提供可否確認",
+      },
+      {
+        id: "comingsoon",
+        title: "auひかり 提供可否確認",
+      },
+    ],
+  },
+
+
+
+  {
+    title: "携帯キャリアメール<br/>アドレス残し",
+    next: [
+      {
+        id: "leave_addr_au",
+        title: "Docomoメアド残し",
+      },
+      {
+        id: "comingsoon",
+        title: "auメアド残し",
+      },
+      {
+        id: "comingsoon",
+        title: "Y!mobileメアド残し",
+      },
+      {
+        id: "comingsoon",
+        title: "SoftBankメアド残し",
+      },
+    ],
+  },
+
+
+
+  {
+    title: "でんき・ガス関連",
+    next: [
+      {
+        id: "tepco",
+        title: "東京電力",
+      },
+      {
+        id: "comingsoon",
+        title: "東京ガス",
+      },
+      {
+        id: "comingsoon",
+        title: "J:COM",
+      },
+    ],
+  },
+  {
+    title: "(スタッフ向け)<br/>便利サイト",
+    next: [
+      {
+        id: "speed_info",
+        title: "プロバイダー速度制限情報",
+      },
+      {
+        id: "comingsoon",
+        title: "YAHOO 選べるクーポン",
+      },
+    ],
+  },
+  {
+    title: "お問合せフォーム",
+    id: "form"
   },
 ];
 

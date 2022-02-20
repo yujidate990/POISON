@@ -6,13 +6,9 @@ ul {
     list-style: none;
 }
 
-.workbrainLog{
-    width: 30px;
-
-}
 
 .menu-btn {
-    width: 250px;
+    width: 280px;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
     background-color: transparent;
     border: 0;
