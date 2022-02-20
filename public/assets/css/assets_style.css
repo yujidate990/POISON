@@ -3,6 +3,11 @@
 
 }
 
+.workbrainLogo_html{
+
+}
+
+/* リンクのフォントオーサム */
 .exLink:after {
     margin: 0 3px;
     font-family: FontAwesome;
@@ -12,4 +17,5 @@
 
 .return_btn_from_html{
     width: 280px;
+    font-size: medium;
 }
