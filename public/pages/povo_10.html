@@ -1,0 +1,113 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>かんたん窓口検索</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/assets_style.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="icon" href="/images/favicon.ico" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<br/>
+							<a href="/" class="return_btn_from_html">最初に戻る</a>
+
+							<!-- Header -->
+								<header id="header">
+									<!-- 1. ヘッダーワード -->
+									<H2>povo 1.0</H2>
+									<span class="image fit workbrainLogo_html"><img src="/images/workbrainLogo.png" alt=""></span>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<ul class="actions">
+											<!-- 2. Link URL、ボタン名称 -->
+											<li><a href="https://my.au.com/rd/mnp?_ga=2.140204339.1495145923.1637132129-1968582158.1628762175" class="button big exLink">au ID ログイン</a></li>
+										</ul>
+										<span class="qrcode">
+										</span>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<!-- 3. 内容 -->
+									<header class="major">
+										<h2>MNP予約番号の発行</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="content">
+												<h3>発行までの期間</h3>
+												<p> 即日</br>
+
+												<h3>手順</h3>
+												<p> povoのサポートサイトを開き、右にある「ご契約中の方」をタップします。<br>
+													登録したメールアドレスを入力し、次へ進みます。<br>
+													SMSで本人認証をしログイン出来たら<br>
+													①「スマートフォン・携帯電話」タブをタップし、<br>
+													②「ご契約内容/手続き」をタップ。一番下にある「お問い合わせ/お手続き」を開きます。<br>
+													「MNPご予約」の部分をタップ。KDDIの案内をスキップし、アンケート部分に回答して進む。</p>
+											</div>
+										</article>
+									</div>
+								</section>
+								<section>
+									<header class="major">
+										<h2>本ページへのリンク</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="content">
+												<h3>別の端末でこちらのページを表示できます</h3>
+												<span class="qrcode_self">
+												</span>
+												<p></p>
+												<!-- 4. 最終更新日 -->
+												<p> [情報最終更新日] 2022/02/06 </p>
+											</div>
+										</article>
+									</div>
+								</section>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.qrcode.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<!-- 5.QR code 外部 -->
+			<script> 
+				$(function(){
+				  var qrtext = "https://my.au.com/rd/mnp?_ga=2.140204339.1495145923.1637132129-1968582158.1628762175";
+				  var utf8qrtext = unescape(encodeURIComponent(qrtext));
+				  $(".qrcode").html("");
+				  $(".qrcode").qrcode({text:utf8qrtext}); 
+				});
+			</script>
+			<!-- 6. QR code 自分自身 -->
+			<script> 
+				$(function(){
+				  var qrtext = "https://receptionsearch.workbrain.jp/pages/povo_10.html";
+				  var utf8qrtext = unescape(encodeURIComponent(qrtext));
+				  $(".qrcode_self").html("");
+				  $(".qrcode_self").qrcode({text:utf8qrtext}); 
+				});
+			</script>
+	</body>
+</html>

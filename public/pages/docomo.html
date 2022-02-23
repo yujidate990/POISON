@@ -1,0 +1,139 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>かんたん窓口検索</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/assets_style.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="icon" href="/images/favicon.ico" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<br/>
+							<a href="/" class="return_btn_from_html">最初に戻る</a>
+
+							<!-- Header -->
+								<header id="header">
+									<!-- 1. ヘッダーワード -->
+									<H2>Docomo</H2>
+									<span class="image fit workbrainLogo_html"><img src="/images/workbrainLogo.png" alt=""></span>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<ul class="actions">
+											<!-- 2. Link URL、ボタン名称 -->
+											<li><a href="https://www.nttdocomo.co.jp/mydocomo/" class="button big exLink">My docomo</a></li>
+										</ul>
+										<span class="qrcode">
+										</span>
+										<!-- 3. 内容 -->
+										<header>
+											<br />
+											<h3>＜ケータイから＞</h3>
+											<h1><a href="tel:151">151</a></h1>
+											<br/>
+											<h3>＜一般電話から＞</h3>
+											<h1><a href="tel:0120800000">0120-800-000</a></h1>
+											<br/>
+											<h2>受付時間　9:00～20:00</h2>
+										</header>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<!-- 3. 内容 -->
+									<header class="major">
+										<h2>MNP予約番号の発行</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="content">
+												<h3>発行までの期間</h3>
+												<p> 即日</br>
+
+												<h3>手順</h3>
+												<p> スマホかパソコンから「マイドコモ（My docomo）」にアクセス<br>
+													「dアカウントのIDとパスワード」を入力しログイン<br>
+													少し下に行き「その他のお手続きはこちらから」という青いボタンをクリック<br>
+													「ドコモオンライン手続き」ページに移動後、下部にある「携帯電話番号ポータビリティ予約（MNP）」をクリック<br>
+													MNPに関する注意事項や料金サービスのメリットなど、説明の最後にある「解約お手続き」のボタンをクリック<br>
+													※説明は引き止めのようなものなので、カンタンに読む程度で問題ありません<br>
+													各注意事項に関する説明が3回続くため、それぞれ確認済みのチェックをクリックし、「次へ」を押す<br>
+													※「dポイントについての注意事項」「機種分割お支払金・途中解約金について」「携帯電話番号ポータビリティ予約番号について」<br>
+													「お手続き内容選択」画面に移動するため、必ず「携帯電話番号ポータビリティを予約する」にチェックと「受付確認メールの送信先」をチェックし、次へ<br>
+													確認画面で問題なければ「手続きを完了する」をクリック<br>
+													画面にMNP予約番号と有効期限が表示される<br>
+													受付時間：9:00～21:30</p>
+
+												<h3>その他・備考</h3>
+												<p> 契約端末ダイアル後「4→2→2→暗証番号」<br>
+													暗証番号忘れた場合は入力せずに待ち続ければオペレーターにつながる<br>
+													ドコモ光とのセット割や家族割引を組んでいる可能性がある場合は<br>
+													WEBでの発行ができないので、電話から始める方がベター。<br>
+													また、シェアパック主回線が乗り換える方で、<br>
+													子回線は引き続き残すパターンの場合、<br>
+													主回線と子回線を反転させるようにオペレーターに依頼してください。</p>
+											</div>
+										</article>
+									</div>
+								</section>
+								<section>
+									<header class="major">
+										<h2>本ページへのリンク</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="content">
+												<h3>別の端末でこちらのページを表示できます</h3>
+												<span class="qrcode_self">
+												</span>
+												<p></p>
+												<!-- 4. 最終更新日 -->
+												<p> [情報最終更新日] 2022/02/06 </p>
+											</div>
+										</article>
+									</div>
+								</section>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.qrcode.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<!-- 5.QR code 外部 -->
+			<script> 
+				$(function(){
+				  var qrtext = "https://www.nttdocomo.co.jp/mydocomo/";
+				  var utf8qrtext = unescape(encodeURIComponent(qrtext));
+				  $(".qrcode").html("");
+				  $(".qrcode").qrcode({text:utf8qrtext}); 
+				});
+			</script>
+			<!-- 6. QR code 自分自身 -->
+			<script> 
+				$(function(){
+				  var qrtext = "https://receptionsearch.workbrain.jp/pages/docomo.html";
+				  var utf8qrtext = unescape(encodeURIComponent(qrtext));
+				  $(".qrcode_self").html("");
+				  $(".qrcode_self").qrcode({text:utf8qrtext}); 
+				});
+			</script>
+	</body>
+</html>

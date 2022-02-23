@@ -25,27 +25,27 @@ const db: Data[] = [
             title: "SoftBank",
           },
           {
-            id: "comingsoon",
+            id: "docomo",
             title: "Docomo",
           },
           {
-            id: "comingsoon",
+            id: "au",
             title: "au",
           },
           {
-            id: "comingsoon",
+            id: "y_mobile",
             title: "Y!mobile",
           },
           {
-            id: "comingsoon",
+            id: "uq_mobile",
             title: "UQ mobile",
           },
           {
-            id: "comingsoon",
+            id: "rakuten_mvno",
             title: "楽天モバイル<br/>(旧プランMVNO時代)"
           },
           {
-            id: "comingsoon",
+            id: "rakuten_unlimit",
             title: "楽天モバイル<br/>(新プラン Rakuten UN-LIMIT)",
           },
         ],
@@ -54,19 +54,19 @@ const db: Data[] = [
         title: "オンラインプラン",
         next: [
           {
-            id: "comingsoon",
+            id: "ahamo",
             title: "ahamo",
           },
           {
-            id: "comingsoon",
+            id: "povo_10",
             title: "povo 1.0",
           },
           {
-            id: "comingsoon",
+            id: "povo_20",
             title: "povo 2.0",
           },
           {
-            id: "comingsoon",
+            id: "linemo",
             title: "LINEMO",
           },
         ],
@@ -75,71 +75,71 @@ const db: Data[] = [
         title: "格安SIM",
         next: [
           {
-            id: "comingsoon",
+            id: "mineo",
             title: "mineo",
           },
           {
-            id: "comingsoon",
+            id: "biglobe_mobile",
             title: "BIGLOBE mobile",
           },
           {
-            id: "comingsoon",
+            id: "line_mobile",
             title: "LINE MOBILE",
           },
           {
-            id: "comingsoon",
+            id: "rakuten_mvno",
             title: "楽天モバイル<br/>(旧プランMVNO時代)"
           },
           {
-            id: "comingsoon",
+            id: "rakuten_unlimit",
             title: "楽天モバイル<br/>(新プラン Rakuten UN-LIMIT)",
           },
           {
-            id: "comingsoon",
+            id: "ocn_mobile_one",
             title: "OCN モバイル ONE",
           },
           {
-            id: "comingsoon",
+            id: "dmm_mobile",
             title: "DMM モバイル",
           },
           {
-            id: "comingsoon",
+            id: "nuro_mobile",
             title: "NURO モバイル",
           },
           {
-            id: "comingsoon",
+            id: "u_mobile",
             title: "U-mobile<br/>(ユーモバイル)",
           },
           {
-            id: "comingsoon",
+            id: "nifmo",
             title: "NifMo<br/>(ニフモ)",
           },
           {
-            id: "comingsoon",
+            id: "libmo",
             title: "LIBMO<br/>(リブモ)",
           },
           {
-            id: "comingsoon",
+            id: "excite_mobile",
             title: "excite モバイル<br/>(エキサイトモバイル)",
           },
           {
-            id: "comingsoon",
+            id: "iij_mio",
             title: "IIJ mio<br/>(アイアイジェイミオ)",
           },
           {
-            id: "comingsoon",
+            id: "aeon_mobile",
             title: "AEON MOBILE<br/>(イオンモバイル)",
           },
           {
-            id: "comingsoon",
+            id: "yu_mobile",
             title: "Y.U.mobile",
           },
           {
-            id: "comingsoon",
+            id: "jcom_mobile",
             title: "J:COM モバイル",
           },
           {
-            id: "comingsoon",
+            id: "tone_mobile",
             title: "TONE MOBILE<br/>(トーンモバイル)",
           },
         ],
