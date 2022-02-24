@@ -147,8 +147,6 @@ const db: Data[] = [
     ],
   },
 
-
-
   {
     title: "インターネット解約関連",
     next: [
@@ -160,107 +158,107 @@ const db: Data[] = [
             title: "フレッツ光（転用）<br/>【NTT東日本】",
           },
           {
-            id: "comingsoon",
+            id: "flets_ntt_west",
             title: "フレッツ光（転用）<br/>【NTT西日本】",
           },
           {
-            id: "comingsoon",
+            id: "nifty_hikari",
             title: "@nifty光",
           },
           {
-            id: "comingsoon",
+            id: "tcom_hikari",
             title: "@TCOMヒカリ",
           },
           {
-            id: "comingsoon",
+            id: "asahinet_hikari",
             title: "AsahiNet光",
           },
           {
-            id: "comingsoon",
+            id: "dmm_hikari",
             title: "DMM光",
           },
           {
-            id: "comingsoon",
+            id: "drive_hikari",
             title: "Drive光",
           },
           {
-            id: "comingsoon",
+            id: "dti_hikari",
             title: "DTI光",
           },
           {
-            id: "comingsoon",
+            id: "ft_hikari",
             title: "FT光",
           },
           {
-            id: "comingsoon",
+            id: "hiho_hikari",
             title: "hi-hoひかり",
           },
           {
-            id: "comingsoon",
+            id: "iij_mio_hikari",
             title: "IIJmioひかり",
           },
           {
-            id: "comingsoon",
+            id: "m_hikari",
             title: "Mひかり<br/>（Marubeni光）",
           },
           {
-            id: "comingsoon",
+            id: "ocn_hikari",
             title: "OCN光",
           },
           {
-            id: "comingsoon",
+            id: "ozzio_hikari",
             title: "o’zzio光",
           },
           {
-            id: "comingsoon",
+            id: "sonet_hikari",
             title: "So-net光",
           },
           {
-            id: "comingsoon",
+            id: "tepco_hikari",
             title: "TEPCOひかり",
           },
           {
-            id: "comingsoon",
+            id: "tg_hikari",
             title: "TG光",
           },
           {
-            id: "comingsoon",
+            id: "usen_hikari_plus",
             title: "USEN光 plus",
           },
           {
-            id: "comingsoon",
+            id: "excite_hikari",
             title: "エキサイト光<br/>BB.excite光Fit",
           },
           {
-            id: "comingsoon",
+            id: "edion_hikari",
             title: "エディオン光",
           },
           {
-            id: "comingsoon",
+            id: "biglobe_hikari",
             title: "ビッグローブ光",
           },
           {
-            id: "comingsoon",
+            id: "plala_hikari",
             title: "ぷらら光",
           },
           {
-            id: "comingsoon",
+            id: "rakuten_hikari",
             title: "楽天ひかり",
           },
           {
-            id: "comingsoon",
+            id: "docomo_hikari",
             title: "ドコモ光",
           },
           {
-            id: "comingsoon",
+            id: "softbank_hikari",
             title: "SoftBank光",
           },
           {
-            id: "comingsoon",
+            id: "otegaru_hikari",
             title: "おてがる光",
           },
           {
-            id: "comingsoon",
+            id: "en_hikari",
             title: "en光",
           },
         ],
@@ -269,67 +267,67 @@ const db: Data[] = [
         title: "非フレッツ光",
         next: [
           {
-            id: "comingsoon",
+            id: "nuro_hikari",
             title: "NURO光",
           },
           {
-            id: "comingsoon",
+            id: "jcom_hikari",
             title: "J:COM",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_nifty",
             title: "au ひかり<br/>(@nifty)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_tcom",
             title: "au ひかり<br/>(@T COM)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_asahinet",
             title: "au ひかり<br/>(ASAHIネット)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_au_one_net",
             title: "au ひかり<br/>(au one net)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_biglobe",
             title: "au ひかり<br/>(BIGLOBE)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_dti",
             title: "au ひかり<br/>(DTI)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_sonet",
             title: "au ひかり<br/>(So-net)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_gmo_bb",
             title: "au ひかり<br/>(GMOとくとくBB)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_linkclub",
             title: "au ひかり<br/>(リンククラブ)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_rakuten",
             title: "au ひかり<br/>(楽天ブロードバンド)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_smartlife",
             title: "au ひかり<br/>(SmartLINE)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_edion_enjoy",
             title: "au ひかり(エディオンネット/<br/>エンジョイ☆auひかり)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_megaegg",
             title: "au ひかり<br/>(メガ・エッグ)",
           },
           {
-            id: "comingsoon",
+            id: "au_hikari_kddi",
             title: "auひかり(電話サービス/<br/>テレビサービスのみ解約)",
           },
         ],
@@ -338,51 +336,51 @@ const db: Data[] = [
         title: "ホームルータ―・ポケットWi-Fi",
         next: [
           {
-            id: "comingsoon",
+            id: "softbank_air",
             title: "SoftBank Air（解約）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_uq",
             title: "UQ Wimax （UQ販路）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_bic",
             title: "UQ Wimax （BIC販路）<br/>→BIC WiMAX SERVICE",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_yodobashi",
             title: "UQ Wimax(YOD販路)→WIREL<br/>ESSGATE WiMAX SERVICE",
           },
           {
-            id: "comingsoon",
+            id: "kashimo_wimax",
             title: "カシモWiMAX",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_dti",
             title: "UQ Wimax（DTI）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_broad_wimax",
             title: "UQ Wimax（Broad WiMAX）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_gmo_bb",
             title: "UQ Wimax（GMOとくとくBB）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_vision_wimax",
             title: "UQ Wimax（VisionWiMAX）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_biglobe",
             title: "UQ Wimax（BIGLOBE）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_sonet",
             title: "UQ Wimax（So-net ）",
           },
           {
-            id: "comingsoon",
+            id: "uqwimax_nifty",
             title: "UQ Wimax（@nifty）",
           },
         ],
