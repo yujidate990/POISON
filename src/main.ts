@@ -414,19 +414,19 @@ const db: Data[] = [
     title: "携帯キャリアメール<br/>アドレス残し",
     next: [
       {
-        id: "leave_addr_au",
+        id: "leave_addr_docomo",
         title: "Docomoメアド残し",
       },
       {
-        id: "comingsoon",
+        id: "leave_addr_au",
         title: "auメアド残し",
       },
       {
-        id: "comingsoon",
+        id: "leave_addr_ymobile",
         title: "Y!mobileメアド残し",
       },
       {
-        id: "comingsoon",
+        id: "leave_addr_softbank",
         title: "SoftBankメアド残し",
       },
     ],
@@ -442,12 +442,107 @@ const db: Data[] = [
         title: "東京電力",
       },
       {
-        id: "comingsoon",
+        id: "tokyo_gas",
         title: "東京ガス",
       },
       {
-        id: "comingsoon",
+        id: "jcom_infra",
         title: "J:COM",
+      },
+    ],
+  },
+  {
+    title: "SIMロック解除",
+    next: [
+      {
+        id: "simlock_docomo",
+        title: "Docomo",
+      },
+      {
+        id: "simlock_au",
+        title: "au",
+      },
+      {
+        id: "simlock_softbank",
+        title: "SoftBank",
+      },
+      {
+        id: "simlock_ymobile",
+        title: "Y!mobile",
+      },
+      {
+        id: "simlock_uqmobile",
+        title: "UQ mobile",
+      },
+    ],
+  },
+  {
+    title: "(中古端末利用者向け)<br/>ネットワーク利用制限確認",
+    next: [
+      {
+        id: "check_nw_usage_docomo",
+        title: "Docomo",
+      },
+      {
+        id: "check_nw_usage_au_uq",
+        title: "au / UQ mobile",
+      },
+      {
+        id: "check_nw_usage_sb_ym",
+        title: "SoftBank / Y!mobile",
+      },
+      {
+        id: "check_nw_usage_rakuten",
+        title: "楽天モバイル",
+      },
+      {
+        id: "check_nw_usage_mineo",
+        title: "mineo",
+      },
+    ],
+  },
+  {
+    title: "(お客様向け)<br/>お得情報",
+    next: [
+      {
+        title: "PayPay",
+        next: [
+          {
+            id: "good_news_paypay_prerelease",
+            title: "プレリリース",
+          },
+          {
+            id: "good_news_paypay_info",
+            title: "お知らせ一覧",
+          },
+        ],
+      },
+      {
+        title: "dポイント",
+        next: [
+          {
+            id: "good_news_dpoint_campaign",
+            title: "キャンペーン一覧",
+          },
+        ]
+      },
+      {
+        title: "au PAY",
+        next: [
+          {
+            id: "good_news_aupay_campaign",
+            title: "キャンペーン一覧",
+          },
+        ]
+      },
+      {
+        title: "楽天ペイ",
+        next: [
+          {
+            id: "good_news_rakutenpay_campaign",
+            title: "キャンペーン一覧",
+          },
+        ]
       },
     ],
   },
@@ -455,11 +550,11 @@ const db: Data[] = [
     title: "(スタッフ向け)<br/>便利サイト",
     next: [
       {
-        id: "speed_info",
+        id: "provider_speed_info",
         title: "プロバイダー速度制限情報",
       },
       {
-        id: "comingsoon",
+        id: "yahoo_coupon",
         title: "YAHOO 選べるクーポン",
       },
     ],
