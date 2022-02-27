@@ -398,11 +398,11 @@ const db: Data[] = [
         title: "フレッツ光マンション検索",
       },
       {
-        id: "comingsoon",
+        id: "softbank_air_check",
         title: "SoftBank Air 提供可否確認",
       },
       {
-        id: "comingsoon",
+        id: "au_hikari_check",
         title: "auひかり 提供可否確認",
       },
     ],

@@ -1,0 +1,105 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>かんたん窓口検索</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<link rel="stylesheet" href="/assets/css/assets_style.css" />
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="icon" href="/images/favicon.ico" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<br/>
+							<a href="/" class="return_btn_from_html">最初に戻る</a>
+
+							<!-- Header -->
+								<header id="header">
+									<!-- 1. ヘッダーワード -->
+									<H2>SoftBank Air 提供可否確認</H2>
+									<span class="image fit workbrainLogo_html"><img src="/images/workbrainLogo.png" alt=""></span>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<ul class="actions">
+											<!-- 2. Link URL、ボタン名称 -->
+											<li><a href="https://bbss.softbankbb.co.jp/BSP/BSP090200.html?ac=000170259688S000&af=wlbbcs&itemtype=5110000000000000&account=0270259688&_kobetucd=no&ENTRYID=70259000" class="button big exLink">SoftBank Air 提供可否</a></li>
+										</ul>
+										<span class="qrcode">
+										</span>
+									</div>
+								</section>
+
+							<!-- Section -->
+                            <section>
+								<!-- 3. 内容 -->
+                                <header class="major">
+                                    <h2>備考</h2>
+                                </header>
+                                <div class="features">
+                                    <article>
+                                        <div class="content">
+                                            <!-- <h3>備考</h3> -->
+                                            <p> 照合ID払い出しまで行いメモしておくと、店舗での登録の際スムーズです。</p>
+                                        </div>
+                                    </article>
+                                </div>
+                            </section>
+								<section>
+									<header class="major">
+										<h2>本ページへのリンク</h2>
+									</header>
+									<div class="features">
+										<article>
+											<div class="content">
+												<h3>別の端末でこちらのページを表示できます</h3>
+												<span class="qrcode_self">
+												</span>	
+                                                <p></p>
+												<!-- 4. 最終更新日 -->
+												<p> [情報最終更新日] 2022/02/06 </p>
+											</div>
+										</article>
+									</div>
+								</section>
+						</div>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.qrcode.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/main.js"></script>
+			<!-- 5.QR code 外部 -->
+			<script> 
+				$(function(){
+				  var qrtext = "https://bbss.softbankbb.co.jp/BSP/BSP090200.html?ac=000170259688S000&af=wlbbcs&itemtype=5110000000000000&account=0270259688&_kobetucd=no&ENTRYID=70259000";
+				  var utf8qrtext = unescape(encodeURIComponent(qrtext));
+				  $(".qrcode").html("");
+				  $(".qrcode").qrcode({text:utf8qrtext}); 
+				});
+			</script>
+			<!-- 6. QR code 自分自身 -->
+			<script> 
+				$(function(){
+				  var qrtext = "https://receptionsearch.workbrain.jp/pages/softbank_air_check.html";
+				  var utf8qrtext = unescape(encodeURIComponent(qrtext));
+				  $(".qrcode_self").html("");
+				  $(".qrcode_self").qrcode({text:utf8qrtext}); 
+				});
+			</script>
+	</body>
+</html>
