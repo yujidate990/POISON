@@ -405,6 +405,10 @@ const db: Data[] = [
         id: "au_hikari_check",
         title: "auひかり 提供可否確認",
       },
+      {
+        id: "ntt_east_check",
+        title: "NTT東日本リニューアルセンター",
+      },
     ],
   },
 
